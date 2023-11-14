@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 70px;
+    padding: 50px;
+}
+
+table {
+    width: 100%;
+}
+
+table tr th {
+    text-align: center;
+}
+
+table tr td {
+    text-align: left;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid orange;
+    border-collapse: collapse;
+}
+
+th{
+    height: 30px;
+    font-size: 30px;
+    margin: 20px;
+    background-color: rgb(157, 155, 155);
+}
+
+td{
+    margin: 20px;
+    padding: 20px;
+}
